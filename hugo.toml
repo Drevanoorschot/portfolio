@@ -1,6 +1,6 @@
 baseURL = 'https://www.drevanoorschot.nl/'
 languageCode = 'en-gb'
-title = "Dré v. Oorschot"
+title = "Dré van Oorschot"
 author = "Dré van Oorschot"
 copyright = "© 2023 Dré van Oorschot"
 theme = 'risotto'
@@ -12,3 +12,31 @@ palette = "monokai"
 icon = "fa-brands fa-github"
 title = "GitHub"
 url = "https://github.com/Drevanoorschot"
+
+
+[[params.socialLinks]]
+icon = "fa-solid fa-envelope"
+title = "Email"
+popupImage = "images/email.png"
+
+[[params.socialLinks]]
+icon = "fa-brands fa-discord"
+title = "Discord"
+popupText = "username: dre60noscope"
+
+[params.about]
+title = "Socials"
+description = "Reach out to me on the following platforms:"
+
+sectionPagesMenu = "main"
+
+[menu]
+
+  [[menu.main]]
+    identifier = "cv"
+    name = "curriculum vitae"
+    url = "/cv/"
+    weight = 10
+
+[markup.goldmark.renderer]
+unsafe = true
