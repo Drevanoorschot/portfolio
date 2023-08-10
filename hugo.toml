@@ -54,3 +54,9 @@ unsafe = true
     startLevel = 2
     endLevel   = 3
     ordered    = true
+
+# SEO stuff
+[sitemap]
+  changefreq = "weekly"
+  filename = "sitemap.xml"
+  priority = 0.5

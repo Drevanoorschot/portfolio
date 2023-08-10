@@ -1,6 +1,13 @@
 ---
 title: "index.md"
 draft: false
+keywords:
+- dre
+- oorschot
+- software
+- developer
+- programming
+description: "Homepage of portfolio website of Dré van Oorschot"
 ---
 
 {{< figure src="images/hello.gif" width="100%" >}}

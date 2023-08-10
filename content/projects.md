@@ -3,6 +3,16 @@ title: "projects.md"
 draft: false
 weight: 0
 toc: true
+keywords:
+- dre
+- oorschot
+- software
+- developer
+- programming
+- projects
+- github
+- code
+description: "fun software projects of Dré van Oorschot"
 ---
 
 Sometimes I feel like programming/creating random projects. This page contains some examples.
