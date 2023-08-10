@@ -1,5 +1,4 @@
 ---
-title: "index.md"
 draft: false
 keywords:
 - dre

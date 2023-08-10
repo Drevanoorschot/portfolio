@@ -12,7 +12,7 @@ keywords:
 - projects
 - github
 - code
-description: "fun software projects of Dré van Oorschot"
+description: "Fun software projects of Dré van Oorschot"
 ---
 
 Sometimes I feel like programming/creating random projects. This page contains some examples.
