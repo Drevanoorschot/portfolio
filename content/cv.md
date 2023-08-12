@@ -84,7 +84,7 @@ description: CV of Dré van Oorschot
 |                                               |                                               |                                           | {{< tc/bad >}} AndroidSDK {{< /tc/bad >}}             |
 |                                               |                                               |                                           | {{< tc/bad >}} Kubernetes {{< /tc/bad >}}             |
 {{< /overflow-x-box >}}
-## Other-activities.dll
+## other-activities.dll
 ===================
 
 |               |                                                           |
