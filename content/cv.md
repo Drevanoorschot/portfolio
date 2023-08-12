@@ -63,7 +63,7 @@ description: CV of Dré van Oorschot
 |               |                                                         |
 | ---           | ---                                                     |
 | 🇳🇱 Dutch      | Native                                                  |
-| 🇬🇧 English    | C1/C2
+| 🇬🇧 English    | C1/C2                                                   |
 
 ### Programming
 {{< overflow-x-box >}}
@@ -71,11 +71,12 @@ description: CV of Dré van Oorschot
 | ---                                           | ---                                           | ---                                       | ---                                                   | ---          |
 | {{< tc/good >}} Python {{< /tc/good >}}       | {{< tc/good >}} Django {{< /tc/good >}}       | {{< tc/good >}} SQLite {{< /tc/good >}}   | {{< tc/good >}} Linux/Debian {{< /tc/good >}}         | OOP          |
 | {{< tc/good >}} Java {{< /tc/good >}}         | {{< tc/good >}} Bootstrap {{< /tc/good >}}    | {{< tc/good >}} Postgres {{< /tc/good >}} | {{< tc/good >}} git {{< /tc/good >}}                  | TDD          |
-| {{< tc/medium >}} C++ {{< /tc/medium >}}      | {{< tc/good >}} JUnit {{< /tc/good >}}        | {{< tc/good >}} MySQL {{< /tc/good >}}    | {{< tc/good >}} pip {{< /tc/good >}}                  | CI/CD        |
-| {{< tc/medium >}} Scala {{< /tc/medium >}}    | {{< tc/medium >}} JQuery {{< /tc/medium >}}   | {{< tc/medium >}} Redis {{< /tc/medium >}}| {{< tc/good >}} Maven {{< /tc/good >}}                | RESTful      |
-| {{< tc/bad >}} C#/.NET {{< /tc/bad >}}        | {{< tc/bad >}} GraphQL {{< /tc/bad >}}        | {{< tc/bad >}} MongoDB {{< /tc/bad >}}    | {{< tc/good >}} Docker {{< /tc/good >}}               | Agile/Scrum  |
-| {{< tc/bad >}} JavaScript {{< /tc/bad >}}     |                                               |                                           | {{< tc/good >}} LLVM {{< /tc/good >}}                 |
-| {{< tc/bad >}} Haskell {{< /tc/bad >}}        |                                               |                                           | {{< tc/good >}} Jupyter {{< /tc/good >}}              |
+| {{< tc/medium >}} C++ {{< /tc/medium >}}      | {{< tc/good >}} JUnit {{< /tc/good >}}        | {{< tc/good >}} MySQL {{< /tc/good >}}    | {{< tc/good >}} Maven {{< /tc/good >}}                | CI/CD        |
+| {{< tc/medium >}} Scala {{< /tc/medium >}}    | {{< tc/medium >}} JQuery {{< /tc/medium >}}   | {{< tc/medium >}} Redis {{< /tc/medium >}}| {{< tc/good >}} Docker {{< /tc/good >}}               | RESTful      |
+| {{< tc/bad >}} C#/.NET {{< /tc/bad >}}        | {{< tc/bad >}} GraphQL {{< /tc/bad >}}        | {{< tc/bad >}} MongoDB {{< /tc/bad >}}    | {{< tc/good >}} LLVM {{< /tc/good >}}                 | Agile/Scrum  |
+| {{< tc/bad >}} JavaScript {{< /tc/bad >}}     | {{< tc/bad >}} Hugo {{< /tc/bad >}}           |                                           | {{< tc/good >}} Jupyter {{< /tc/good >}}              |
+| {{< tc/bad >}} Haskell {{< /tc/bad >}}        |                                               |                                           | {{< tc/medium >}} Pipenv {{< /tc/medium >}}           |
+|                                               |                                               |                                           | {{< tc/medium >}} RabbitMQ {{< /tc/medium >}}         |
 |                                               |                                               |                                           | {{< tc/medium >}} Antlr4 {{< /tc/medium >}}           |
 |                                               |                                               |                                           | {{< tc/medium >}} GitHub Actions {{< /tc/medium >}}   |
 |                                               |                                               |                                           | {{< tc/medium >}} SonarQube {{< /tc/medium >}}        |
