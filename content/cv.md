@@ -15,7 +15,24 @@ keywords:
 description: CV of Dré van Oorschot
 ---
 
-## personal.sql
+<script>
+    const tags = [".sql", ".csv", ".json", ".so", ".sh", ".dll", ".exe", ".py", ".java", ".class",
+        ".jar", ".cpp", ".c", ".o", ".ll", ".xml", ".yaml", ".toml", ".txt", ".js", ".html", ".css",
+        ".log", ".zip", ".tar.gz", ".hs", ".cs"]
+        .map(value => ({ value, sort: Math.random() }))
+        .sort((a, b) => a.sort - b.sort)
+        .map(({ value }) => value);
+
+    document.addEventListener("DOMContentLoaded", _ => {
+        let headings = document.querySelectorAll("h2");
+        headings.forEach(elem => {
+            elem.innerHTML = elem.innerHTML + tags.pop();
+        });
+    });
+</script>
+
+
+## personal
 ===============
 
 |                 |                         |
@@ -23,13 +40,13 @@ description: CV of Dré van Oorschot
 | **Name**        | Dré van Oorschot        |
 | **Nationality** | 🇳🇱 Dutch                |
 
-## education.csv
+## education
 ================
 |               |                                                         |
 | ---           | ---                                                     |
 | 2020 - 2023   | **MSc Computer Science (Software Technology)**          |
 |               | University of Twente, 🇳🇱 Enschede                       |
-|               | [Thesis](https://essay.utwente.nl/96536/)               |
+|               | [Thesis](https://essay.utwente.nl/96536/) \| [Paper](https://link.springer.com/chapter/10.1007/978-3-031-57259-3_15)              |
 |---------------|
 | 2016 - 2020   | **BSc Technical Computer Science**                      |
 |               | University of Twente, 🇳🇱 Enschede                       |
@@ -41,11 +58,11 @@ description: CV of Dré van Oorschot
 |               | [2013 - 2016] **IB English** *Language A: Higher Level* |
 |               | [2010 - 2013] **Cambridge English** *Advanced (CAE)*    |
 
-## work-experience.json
+## work-experience
 =======================
 |               |                                                         |
 | ---           | ---                                                     |
-| 2023 -        | **Designer**                                            |
+| 2023 -        | **Software Engineer**                                   |
 |               | Technolution B.V., 🇳🇱 Gouda                             |
 |---------------|
 | 2017 - 2021   | **Student Assistent**                                   |
@@ -56,7 +73,7 @@ description: CV of Dré van Oorschot
 |               | - *Programming Paradigms*                               |
 
 
-## skills.exe
+## skills
 =============
 ### Languages
 
@@ -71,11 +88,15 @@ description: CV of Dré van Oorschot
 | ---                                           | ---                                           | ---                                       | ---                                                   | ---          |
 | {{< tc/good >}} Python {{< /tc/good >}}       | {{< tc/good >}} Django {{< /tc/good >}}       | {{< tc/good >}} SQLite {{< /tc/good >}}   | {{< tc/good >}} Linux/Debian {{< /tc/good >}}         | OOP          |
 | {{< tc/good >}} Java {{< /tc/good >}}         | {{< tc/good >}} Bootstrap {{< /tc/good >}}    | {{< tc/good >}} Postgres {{< /tc/good >}} | {{< tc/good >}} git {{< /tc/good >}}                  | TDD          |
-| {{< tc/medium >}} C++ {{< /tc/medium >}}      | {{< tc/good >}} JUnit {{< /tc/good >}}        | {{< tc/good >}} MySQL {{< /tc/good >}}    | {{< tc/good >}} Maven {{< /tc/good >}}                | CI/CD        |
-| {{< tc/medium >}} Scala {{< /tc/medium >}}    | {{< tc/medium >}} JQuery {{< /tc/medium >}}   | {{< tc/medium >}} Redis {{< /tc/medium >}}| {{< tc/good >}} Docker {{< /tc/good >}}               | RESTful      |
-| {{< tc/bad >}} C#/.NET {{< /tc/bad >}}        | {{< tc/bad >}} GraphQL {{< /tc/bad >}}        | {{< tc/bad >}} MongoDB {{< /tc/bad >}}    | {{< tc/good >}} LLVM {{< /tc/good >}}                 | Agile/Scrum  |
-| {{< tc/bad >}} JavaScript {{< /tc/bad >}}     | {{< tc/bad >}} Hugo {{< /tc/bad >}}           |                                           | {{< tc/good >}} Jupyter {{< /tc/good >}}              |
-| {{< tc/bad >}} Haskell {{< /tc/bad >}}        |                                               |                                           | {{< tc/medium >}} Pipenv {{< /tc/medium >}}           |
+| {{< tc/medium >}} C++ {{< /tc/medium >}}      | {{< tc/good >}} JUnit {{< /tc/good >}}        | {{< tc/good >}} MySQL {{< /tc/good >}}    | {{< tc/good >}} pip {{< /tc/good >}}                  | CI/CD        |
+| {{< tc/medium >}} Scala {{< /tc/medium >}}    | {{< tc/medium >}} JQuery {{< /tc/medium >}}   | {{< tc/medium >}} Redis {{< /tc/medium >}}| {{< tc/good >}} Maven {{< /tc/good >}}                | RESTful      |
+| {{< tc/bad >}} C#/.NET {{< /tc/bad >}}        | {{< tc/bad >}} GraphQL {{< /tc/bad >}}        | {{< tc/bad >}} MongoDB {{< /tc/bad >}}    | {{< tc/good >}} Docker {{< /tc/good >}}               | Agile/Scrum  |
+| {{< tc/bad >}} JavaScript {{< /tc/bad >}}     | {{< tc/bad >}} Hugo {{< /tc/bad >}}           |                                           | {{< tc/good >}} LLVM {{< /tc/good >}}                 |
+| {{< tc/bad >}} Haskell {{< /tc/bad >}}        |                                               |                                           | {{< tc/good >}} OpenAPI {{< /tc/good >}}              |
+|                                               |                                               |                                           | {{< tc/good >}} nginx {{< /tc/good >}}                |
+|                                               |                                               |                                           | {{< tc/good >}} Jupyter {{< /tc/good >}}              |
+|                                               |                                               |                                           | {{< tc/medium >}} Gradle {{< /tc/medium >}}           |
+|                                               |                                               |                                           | {{< tc/medium >}} Pipenv {{< /tc/medium >}}           |
 |                                               |                                               |                                           | {{< tc/medium >}} RabbitMQ {{< /tc/medium >}}         |
 |                                               |                                               |                                           | {{< tc/medium >}} Antlr4 {{< /tc/medium >}}           |
 |                                               |                                               |                                           | {{< tc/medium >}} GitHub Actions {{< /tc/medium >}}   |
@@ -84,8 +105,8 @@ description: CV of Dré van Oorschot
 |                                               |                                               |                                           | {{< tc/bad >}} AndroidSDK {{< /tc/bad >}}             |
 |                                               |                                               |                                           | {{< tc/bad >}} Kubernetes {{< /tc/bad >}}             |
 {{< /overflow-x-box >}}
-## other-activities.dll
-===================
+
+## other-activities
 
 |               |                                                           |
 | ---           | ---                                                       |

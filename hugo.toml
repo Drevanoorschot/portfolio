@@ -25,7 +25,8 @@ title = "Discord"
 popupText = "username: dre60noscope"
 
 [params.about]
-title = "Socials"
+logo = "images/me.jpg"
+title = "Contact"
 description = "Reach out to me on the following platforms:"
 
 sectionPagesMenu = "main"

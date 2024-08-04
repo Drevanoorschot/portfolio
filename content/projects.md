@@ -20,7 +20,7 @@ Sometimes I feel like programming/creating random projects. This page contains s
 ## Advent of Code
 [[GitHub](https://github.com/Drevanoorschot/AoC)]
 
-The [Advent of Code](https://adventofcode.com/) is a yearly programming competition where each day of December till Christmas a new programming puzzle gets published. I often challenge myself to learn a new programming language or teach myself some more advanced programming features during this event.
+The [Advent of Code](https://adventofcode.com/) is a yearly programming competition where each day of December till Christmas, a programming puzzle gets published. I often challenge myself to learn a new programming language or teach myself some more advanced programming features during this event.
 
 ## xkcd Discord Bot
 [[GitHub](https://github.com/Drevanoorschot/AoC)] [[Add](https://discord.com/api/oauth2/authorize?client_id=839927624327495701&permissions=2064&scope=bot)]
