@@ -35,10 +35,10 @@ description: CV of Dré van Oorschot
 ## personal
 ===============
 
-|                 |                         |
-| ---             | ---                     |
-| **Name**        | Dré van Oorschot        |
-| **Nationality** | 🇳🇱 Dutch                |
+|                 |                  |
+|-----------------|------------------|
+| **Name**        | Dré van Oorschot |
+| **Nationality** | 🇳🇱 Dutch         |
 
 ## education
 ================
@@ -60,50 +60,59 @@ description: CV of Dré van Oorschot
 
 ## work-experience
 =======================
-|               |                                                         |
-| ---           | ---                                                     |
-| 2023 -        | **Software Engineer**                                   |
-|               | Technolution B.V., 🇳🇱 Gouda                             |
-|---------------|
-| 2017 - 2021   | **Student Assistent**                                   |
-|               | <u>Courses</u>:                                         |
-|               | - *Pearls of Computer Science*                          |
-|               | - *Software Systems*                                    |
-|               | - *Data & Information*                                  |
-|               | - *Programming Paradigms*                               |
+|               |                                                               |
+| ---           | ---                                                           |
+| 2023 -        | **Software Engineer**                                         |
+|               | Technolution B.V., 🇳🇱 Gouda                                   |
+|               | <u>Functions:</u>                                             |
+|               | - [2023 - 2025]                     Junior Software Engineer  |
+|               | - [2025 - &nbsp;&nbsp;&nbsp;&nbsp;] Medior Software Engineer  |
+|---------------|                                                               |
+| 2017 - 2021   | **Student Assistent**                                         |
+|               | <u>Courses:</u>                                               |
+|               | - *Pearls of Computer Science*                                |
+|               | - *Software Systems*                                          |
+|               | - *Data & Information*                                        |
+|               | - *Programming Paradigms*                                     |
 
 
 ## skills
 =============
 ### Languages
 
-|               |                                                         |
-| ---           | ---                                                     |
-| 🇳🇱 Dutch      | Native                                                  |
-| 🇬🇧 English    | C1/C2                                                   |
+|            |        |
+|------------|--------|
+| 🇳🇱 Dutch   | Native |
+| 🇬🇧 English | C1/C2  |
 
 ### Programming
 {{< overflow-x-box >}}
-| Languages                                     | Frameworks                                    | Databases                                 | Tools                                                 | Methodology  |
-| ---                                           | ---                                           | ---                                       | ---                                                   | ---          |
-| {{< tc/good >}} Python {{< /tc/good >}}       | {{< tc/good >}} Django {{< /tc/good >}}       | {{< tc/good >}} SQLite {{< /tc/good >}}   | {{< tc/good >}} Linux/Debian {{< /tc/good >}}         | OOP          |
-| {{< tc/good >}} Java {{< /tc/good >}}         | {{< tc/good >}} Bootstrap {{< /tc/good >}}    | {{< tc/good >}} Postgres {{< /tc/good >}} | {{< tc/good >}} git {{< /tc/good >}}                  | TDD          |
-| {{< tc/medium >}} C++ {{< /tc/medium >}}      | {{< tc/good >}} JUnit {{< /tc/good >}}        | {{< tc/good >}} MySQL {{< /tc/good >}}    | {{< tc/good >}} pip {{< /tc/good >}}                  | CI/CD        |
-| {{< tc/medium >}} Scala {{< /tc/medium >}}    | {{< tc/medium >}} JQuery {{< /tc/medium >}}   | {{< tc/medium >}} Redis {{< /tc/medium >}}| {{< tc/good >}} Maven {{< /tc/good >}}                | RESTful      |
-| {{< tc/bad >}} C#/.NET {{< /tc/bad >}}        | {{< tc/bad >}} GraphQL {{< /tc/bad >}}        | {{< tc/bad >}} MongoDB {{< /tc/bad >}}    | {{< tc/good >}} Docker {{< /tc/good >}}               | Agile/Scrum  |
-| {{< tc/bad >}} JavaScript {{< /tc/bad >}}     | {{< tc/bad >}} Hugo {{< /tc/bad >}}           |                                           | {{< tc/good >}} LLVM {{< /tc/good >}}                 |
-| {{< tc/bad >}} Haskell {{< /tc/bad >}}        |                                               |                                           | {{< tc/good >}} OpenAPI {{< /tc/good >}}              |
-|                                               |                                               |                                           | {{< tc/good >}} nginx {{< /tc/good >}}                |
-|                                               |                                               |                                           | {{< tc/good >}} Jupyter {{< /tc/good >}}              |
-|                                               |                                               |                                           | {{< tc/medium >}} Gradle {{< /tc/medium >}}           |
-|                                               |                                               |                                           | {{< tc/medium >}} Pipenv {{< /tc/medium >}}           |
-|                                               |                                               |                                           | {{< tc/medium >}} RabbitMQ {{< /tc/medium >}}         |
-|                                               |                                               |                                           | {{< tc/medium >}} Antlr4 {{< /tc/medium >}}           |
-|                                               |                                               |                                           | {{< tc/medium >}} GitHub Actions {{< /tc/medium >}}   |
-|                                               |                                               |                                           | {{< tc/medium >}} SonarQube {{< /tc/medium >}}        |
-|                                               |                                               |                                           | {{< tc/medium >}} CMake {{< /tc/medium >}}            |
-|                                               |                                               |                                           | {{< tc/bad >}} AndroidSDK {{< /tc/bad >}}             |
-|                                               |                                               |                                           | {{< tc/bad >}} Kubernetes {{< /tc/bad >}}             |
+| Languages                                  | Frameworks/Standards                               | Databases                                  | Tools                                               | Methodology |
+|--------------------------------------------|----------------------------------------------------|--------------------------------------------|-----------------------------------------------------|-------------|
+| {{< tc/good >}} Python {{< /tc/good >}}    | {{< tc/good >}} Django {{< /tc/good >}}            | {{< tc/good >}} SQLite {{< /tc/good >}}    | {{< tc/good >}} Linux {{< /tc/good >}}              | OOP         |
+| {{< tc/good >}} Java {{< /tc/good >}}      | {{< tc/good >}} Bootstrap {{< /tc/good >}}         | {{< tc/good >}} Postgres {{< /tc/good >}}  | {{< tc/good >}} git {{< /tc/good >}}                | TDD         |
+| {{< tc/medium >}} C++ {{< /tc/medium >}}   | {{< tc/good >}} JUnit {{< /tc/good >}}             | {{< tc/good >}} MySQL {{< /tc/good >}}     | {{< tc/good >}} pip {{< /tc/good >}}                | CI/CD       |
+| {{< tc/medium >}} Scala {{< /tc/medium >}} | {{< tc/good >}} Mockito {{< /tc/good >}}           | {{< tc/good >}} MariaDB {{< /tc/good >}}   | {{< tc/good >}} Maven {{< /tc/good >}}              | RESTful     |
+| {{< tc/bad >}} C#/.NET {{< /tc/bad >}}     | {{< tc/good >}} Jersey/JAX-RS {{< /tc/good >}}     | {{< tc/medium >}} Redis {{< /tc/medium >}} | {{< tc/good >}} Docker {{< /tc/good >}}             | Agile/Scrum |
+| {{< tc/bad >}} JavaScript {{< /tc/bad >}}  | {{< tc/medium >}} Hibernate/JPA {{< /tc/medium >}} | {{< tc/bad >}} MongoDB {{< /tc/bad >}}     | {{< tc/good >}} LLVM {{< /tc/good >}}               |             |
+| {{< tc/bad >}} TypeScript {{< /tc/bad >}}  | {{< tc/medium >}} JQuery {{< /tc/medium >}}        |                                            | {{< tc/good >}} OpenAPI {{< /tc/good >}}            |             |
+| {{< tc/bad >}} Bash {{< /tc/bad >}}        | {{< tc/medium >}} PKCS #11 {{< /tc/medium >}}      |                                            | {{< tc/good >}} nginx {{< /tc/good >}}              |             |
+| {{< tc/bad >}} Haskell {{< /tc/bad >}}     | {{< tc/medium >}} ASN.1 {{< /tc/medium >}}         |                                            | {{< tc/good >}} Jupyter {{< /tc/good >}}            |             |
+|                                            | {{< tc/medium >}} TLS/SSL {{< /tc/medium >}}       |                                            | {{< tc/good >}} Gradle {{< /tc/good >}}             |             |
+|                                            | {{< tc/bad >}} Hugo {{< /tc/bad >}}                |                                            | {{< tc/good >}} GitLab CI/CD {{< /tc/good >}}       |             |
+|                                            | {{< tc/bad >}} DropWizard {{< /tc/bad >}}          |                                            | {{< tc/good >}} cURL {{< /tc/good >}}               |             |
+|                                            | {{< tc/bad >}} GRPC/Protobuf {{< /tc/bad >}}       |                                            | {{< tc/medium >}} Jira {{< /tc/medium >}}           |             |
+|                                            | {{< tc/bad >}} AngularJS (1.x) {{< /tc/bad >}}     |                                            | {{< tc/medium >}} OpenSSL {{< /tc/medium >}}        |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} Pipenv {{< /tc/medium >}}         |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} RabbitMQ {{< /tc/medium >}}       |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} Antlr4 {{< /tc/medium >}}         |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} npm {{< /tc/medium >}}            |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} GitHub Actions {{< /tc/medium >}} |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} SonarQube {{< /tc/medium >}}      |             |
+|                                            |                                                    |                                            | {{< tc/medium >}} CMake {{< /tc/medium >}}          |             |
+|                                            |                                                    |                                            | {{< tc/bad >}} AndroidSDK {{< /tc/bad >}}           |             |
+|                                            |                                                    |                                            | {{< tc/bad >}} Kubernetes {{< /tc/bad >}}           |             |
+|                                            |                                                    |                                            | {{< tc/bad >}} Portainer {{< /tc/bad >}}            |             |
 {{< /overflow-x-box >}}
 
 ## other-activities
