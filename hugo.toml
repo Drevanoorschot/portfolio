@@ -2,7 +2,7 @@ baseURL = 'https://www.drevanoorschot.nl/'
 languageCode = 'en-gb'
 title = "Dré van Oorschot"
 author = "Dré van Oorschot"
-copyright = "© 2023 Dré van Oorschot"
+copyright = "© 2023 - 2025 Dré van Oorschot"
 theme = 'risotto'
 
 [params.theme]
