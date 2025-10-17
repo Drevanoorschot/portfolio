@@ -64,12 +64,12 @@ description: CV of Dré van Oorschot
 | ---           | ---                                                           |
 | 2023 -        | **Software Engineer**                                         |
 |               | Technolution B.V., 🇳🇱 Gouda                                   |
-|               | <u>Functions:</u>                                             |
+|               | <u>Functions</u>:                                             |
 |               | - [2023 - 2025]                     Junior Software Engineer  |
 |               | - [2025 - &nbsp;&nbsp;&nbsp;&nbsp;] Medior Software Engineer  |
 |---------------|                                                               |
 | 2017 - 2021   | **Student Assistent**                                         |
-|               | <u>Courses:</u>                                               |
+|               | <u>Courses</u>:                                               |
 |               | - *Pearls of Computer Science*                                |
 |               | - *Software Systems*                                          |
 |               | - *Data & Information*                                        |
